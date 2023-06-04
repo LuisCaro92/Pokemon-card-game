@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+body{
+  background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png )
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-footer{
+  height:500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carta{
+  margin-left:100px;
+  margin-bottom: 50px;
+  border-radius: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.life{
+  position: relative;
+  bottom: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-header{
+  height: 60px;
+  background-color: rgba(193, 243, 239, 0.432) ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-body{
+  width: 80%;
+  position: relative;
+  bottom: 20px;
+  background: url(https://media.giphy.com/media/26ufkQ17bapQ89hEk/giphy.gif);
+}
+.card-footer{
+  height: 100px;
+  position: relative;
+  bottom: 22px;
+ 
+ 
+}
+
+.poder{
+  position: relative;
+  bottom: 37px ;
 }
